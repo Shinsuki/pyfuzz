@@ -13,7 +13,7 @@ def fuzzget(wordlist, url, file_name, requests_history: list):
         '.bak', '.zip', '.tar.gz', '.env'
     ]
 
-    # Declare a request a
+    # Declare a request
     request = None
 
     # Iterate through each word in the wordlist and append possible extensions
